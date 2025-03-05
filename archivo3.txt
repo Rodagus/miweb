@@ -1,7 +1,1 @@
-tambien tendremos una linea de texto
-agrago otro linea de palabras
-
-Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent lacinia semper pharetra nunc sed volutpat. Nibh tellus tempus iaculis 
-ornare massa urna. Ante mauris euismod tellus; taciti eleifend nisi. Parturient posuere morbi, tempor ad aptent tristique. 
-Dignissim mus sem primis, mus non praesent. Elit euismod id potenti magnis donec lacus parturient. Dui ad nascetur est magnis 
-sociosqu varius pellentesque pellentesque. Eu nostra convallis rhoncus ridiculus eleifend taciti.
+tenemos una nuevo texto para ustedes esta vez
