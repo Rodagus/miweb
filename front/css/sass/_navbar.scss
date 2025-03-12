@@ -1,0 +1,20 @@
+nav {
+    background-color: steelblue;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;        
+        list-style: none;
+        li {
+            margin-left: 10px;
+        }
+    }  
+}
