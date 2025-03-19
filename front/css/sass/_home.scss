@@ -18,6 +18,24 @@
        margin-bottom: 5px; 
        font-size: 20px;
    }
+<<<<<<< HEAD
+=======
+   .hero {
+    padding: 8px 28px;
+    background-color: steelblue;
+    border-radius: 5px;
+    border: none;
+   }
+   .hero:hover {
+    background-color: #4CAF50;
+   }
+   .parrafo-ql-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+   }
+>>>>>>> segunda_rama
    .show-proyects {
     height: 455px;
     display: flex;
@@ -26,6 +44,7 @@
     border: 1px solid #dee2e6;
     background-color: aqua;
 }
+<<<<<<< HEAD
 .proyects {
     height: 100%;
     width: 50%;
@@ -50,9 +69,47 @@
 
 #about{
     height: 500px;
+=======
+.gallery {
+    height: 700px;
+>>>>>>> segunda_rama
 }
+.project-animal {
+    height: 330px;
+    background-color: steelblue;
+}
+.project-habitos {
+    height: 330px;
+    background-color: lawngreen;
+}
+.proyects {
+    height: 100%;
+    width: 50%;
+   // border: 1px solid #000;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-ecommerce {
+    height: 100%;
+    width: 50%;
+   
+}   
+.div-image-ecommerce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #portfolio{
+<<<<<<< HEAD
     height: 500px;
+=======
+    height: 700px;
+>>>>>>> segunda_rama
 }
 #contact{
     height: 500px;
