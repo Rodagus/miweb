@@ -1,5 +1,22 @@
 #home {
- height: 500px;   
+ height: 1000px;   
+}
+.personal {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.titulo-chevere {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+.parrafo-ql {
+    padding-bottom: 5px;
+    margin-bottom: 5px; 
+    font-size: 20px;
 }
 .show-proyects {
     height: 455px;
@@ -14,6 +31,10 @@
     width: 50%;
    // border: 1px solid #000;
     background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .image-ecommerce {
     height: 100%;

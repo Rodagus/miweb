@@ -42,7 +42,27 @@ header {
 }
 
 #home {
+  height: 1000px;
+}
+
+.personal {
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-chevere {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 48px;
+}
+
+.parrafo-ql {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 .show-proyects {
@@ -58,6 +78,10 @@ header {
   height: 100%;
   width: 50%;
   background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .image-ecommerce {
