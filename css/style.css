@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav {
   background-color: steelblue;
   color: #000;
@@ -118,17 +119,7 @@ header {
 }
 
 .gallery {
-  height: 700px;
-}
-
-.project-animal {
-  height: 330px;
-  background-color: steelblue;
-}
-
-.project-habitos {
-  height: 330px;
-  background-color: lawngreen;
+  height: 1000px;
 }
 
 .proyects {
@@ -152,12 +143,124 @@ header {
   align-items: center;
 }
 
-#portfolio {
-  height: 700px;
+#contact {
+  height: 500px;
+}
+
+.gallery {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-portafolio {
+  padding-top: 5px;
+  margin-top: 5px;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-animal {
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.imagen-flow {
+  width: 50%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.project-animal p {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.project-habitos {
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.habitos-imagen {
+  width: 50%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.project-habitos p {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
 }
 
 #contact {
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* Aumenta el ancho para una mejor legibilidad */
+  max-width: 600px; /* Limita el ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+  margin: 20px auto; /* Añade margen superior e inferior y centra horizontalmente */
+  border-radius: 8px; /* Redondea las esquinas */
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Cambia el color del título */
+}
+
+.contacto {
+  width: 100%;
+}
+
+.contacto label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555; /* Cambia el color de las etiquetas */
+}
+
+.contacto input,
+.contacto textarea {
+  width: calc(100% - 12px); /* Asegura que ocupen todo el ancho disponible restando el padding */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+.contacto textarea {
+  resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  min-height: 150px;
+}
+
+.contacto button {
+  background-color: #007bff; /* Cambia el color del botón */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease; /* Añade una transición suave al color de fondo */
+}
+
+.contacto button:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el ratón */
 }
 
 /*# sourceMappingURL=style.css.map */

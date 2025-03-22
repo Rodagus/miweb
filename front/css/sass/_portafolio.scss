@@ -1,0 +1,54 @@
+.gallery{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-portafolio {
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.project-animal {
+    height: 430px;
+    //background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.imagen-flow {
+    width: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+.project-animal p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.project-habitos{
+    height: 430px;
+    //background-color: lawngreen;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.habitos-imagen {
+    width: 50%;
+    object-fit: cover;
+    padding: 5px;
+}
+.project-habitos p {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
