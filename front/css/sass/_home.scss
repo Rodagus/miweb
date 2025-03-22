@@ -42,16 +42,10 @@
     background-color: aqua;
 }
 .gallery {
-    height: 700px;
+    height: 1000px;
 }
-.project-animal {
-    height: 330px;
-    background-color: steelblue;
-}
-.project-habitos {
-    height: 330px;
-    background-color: lawngreen;
-}
+
+
 .proyects {
     height: 100%;
     width: 50%;
@@ -71,11 +65,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-#portfolio{
-    height: 700px;
 }
 #contact{
     height: 300px;
